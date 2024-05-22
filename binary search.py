@@ -1,4 +1,9 @@
 def pesquisa_binaria(lista, item):
+    """
+    A pesquisa binária é um algoritmo eficiente para encontrar um item em uma lista ordenada,
+    reduzindo pela metade o espaço de busca a cada iteração, levando a uma complexidade de tempo
+    'O(log n)'.
+    """
     baixo = 0
     alto = len(lista) - 1
 
